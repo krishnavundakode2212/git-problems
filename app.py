@@ -1,7 +1,7 @@
 import xml
 
 highest_salary = 0
-employee = ""
+employee = "  "
 
 with open("employees.csv", "r") as file:
     reader = csv.DictReader(file)
