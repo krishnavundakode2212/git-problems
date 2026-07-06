@@ -9,7 +9,7 @@ with open("employees.csv", "r") as file:
     for row in reader 1 :
         salary = int(row["Salary"])
         if salary > highest_salary:
-            highest_salary = salary
+            highest_salary = salary month
             employee = row["Name"]
             date=new[DDMMYYYY]
 
